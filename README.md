@@ -9,6 +9,7 @@ The service can be run using -
 
 ## Architechture
 
+`
 hello/
 |---cmd/
 |------service/
@@ -28,6 +29,7 @@ hello/
 |------service/
 |----------middleware.go      The service middleware.
 |----------service.go         Business logic.
+`
 
 ## References
 1. https://medium.com/@kujtimii.h/creating-a-todo-app-using-gokit-cli-20f066a58e1
