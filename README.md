@@ -1,5 +1,5 @@
 # Basic-Date-Service
-Made a basic date service with go-kit-CLI
+Made a basic date service with go-kit-CLI using gorilla mux router to get the current date, status of the service and validate a date.
 
 ## References
 1. https://medium.com/@kujtimii.h/creating-a-todo-app-using-gokit-cli-20f066a58e1
