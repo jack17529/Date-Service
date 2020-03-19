@@ -17,17 +17,17 @@ hello/
 |------main.go                Runs the service  
 |---pkg/  
 |------endpoints/  
-|----------endpoint.go        The endpoint logic.
-|----------endpoint_gen.go    This will wire the endpoints.
-|----------middleware.go      Endpoint middleware
-|------http/
-|----------handler.go         Transport logic encode/decode data and gorilla mux request reponse routing of the service.
-|----------handler_gen.go     This will wire the transport.
-|------io/
-|----------io.go              The input output structs.
-|------service/
-|----------middleware.go      The service middleware.
-|----------service.go         Business logic.
+|----------endpoint.go        The endpoint logic.  
+|----------endpoint_gen.go    This will wire the endpoints.  
+|----------middleware.go      Endpoint middleware  
+|------http/  
+|----------handler.go         Transport logic encode/decode data and gorilla mux request reponse routing of the service.  
+|----------handler_gen.go     This will wire the transport.  
+|------io/  
+|----------io.go              The input output structs.  
+|------service/  
+|----------middleware.go      The service middleware.  
+|----------service.go         Business logic.  
 `
 
 ## References
