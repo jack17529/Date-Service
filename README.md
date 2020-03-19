@@ -4,8 +4,7 @@ Made a basic date service with go-kit-CLI using gorilla mux router to get the cu
 
 ## Running
 1. Download the project in your GOPATH.
-2. cd inside the folder and run
-`docker-compose up`
+2. cd inside the folder and run `docker-compose up` using the `docker-compose.yml` file or using `go run hello/cmd/main.go` 
 
 ## Architechture
 
