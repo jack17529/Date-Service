@@ -1,0 +1,12 @@
+version: "2"
+services:
+  hello:
+    build:
+      context: .
+      dockerfile: hello/Dockerfile
+    restart: always
+    volumes:
+    - .:/go/src/github.com/faith/goKitAdvanced4
+    container_name: hello
+    ports:
+    - 8800:8081
