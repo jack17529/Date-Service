@@ -9,15 +9,14 @@ The service can be run using -
 
 ## Architechture
 
-`
-hello/
-|---cmd/
-|------service/
-|----------server.go          Wire the service.
-|----------server_gen.go      Also wire the service.
-|------main.go                Runs the service
-|---pkg/
-|------endpoints/
+hello/  
+|---cmd/  
+|------service/  
+|----------server.go          Wire the service.  
+|----------server_gen.go      Also wire the service.  
+|------main.go                Runs the service  
+|---pkg/  
+|------endpoints/  
 |----------endpoint.go        The endpoint logic.
 |----------endpoint_gen.go    This will wire the endpoints.
 |----------middleware.go      Endpoint middleware
