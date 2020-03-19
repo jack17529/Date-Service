@@ -3,8 +3,8 @@
 Made a basic date service with go-kit-CLI using gorilla mux router to get the current date, status of the service and validate a date.
 
 ## Running
-
-The service can be run using -
+1. Download the project in your GOPATH.
+2. cd inside the folder and run
 `docker-compose up`
 
 ## Architechture
@@ -28,7 +28,7 @@ hello/
 |------service/  
 |----------middleware.go      The service middleware.  
 |----------service.go         Business logic.  
-`
+
 
 ## References
 1. https://medium.com/@kujtimii.h/creating-a-todo-app-using-gokit-cli-20f066a58e1
