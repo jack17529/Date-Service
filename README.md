@@ -35,7 +35,7 @@ hello/
 2. Edit the business logic file (`hello/pkg/service/service.go`) with the methods in your service.
 3. To generate the service with gorilla and default middleware use `kit g s hello -w --gorilla`
 4. A basic service that does not handle request and reponse can be run right now using `go run hello/cmd/main.go`
-5. NOTE: Our service runs at port 8081 and not ont he default gorilla mux port 8080.
+5. NOTE: Our service runs at port 8081 and not on the default gorilla mux port 8080.
 6. Now implement our services in `hello/pkg/service/service.go` file.
 7. One can write the test in the same service folder for the business logic, right now.
 8. Then edit `hello/pkg/endpoint/endpoint.go` for the request reponse structs.
