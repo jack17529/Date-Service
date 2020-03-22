@@ -32,7 +32,7 @@ hello/
 ## Reproducing the service
 
 1. Use `kit new service hello` to make a service named hello.
-2. Edit the business logic file (`hello/pkg/service/service.go`) with the methods in your service.
+2. Edit the business logic file (`hello/pkg/service/service.go`) with the methods in your service interface.
 3. To generate the service with gorilla and default middleware use `kit g s hello -w --gorilla`
 4. A basic service that does not handle request and reponse can be run right now using `go run hello/cmd/main.go`
 5. NOTE: Our service runs at port 8081 and not on the default gorilla mux port 8080.
