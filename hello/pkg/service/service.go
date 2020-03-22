@@ -22,16 +22,13 @@ func NewBasicHelloService() HelloService {
 }
 
 func (b *basicHelloService) Status(ctx context.Context) (s0 string, e1 error) {
-	// TODO implement the business logic of Status
 	return "ok", nil
 }
 func (b *basicHelloService) Get(ctx context.Context) (s0 string, e1 error) {
-	// TODO implement the business logic of Get
 	now := time.Now()
 	return now.Format("02/01/2006"), nil
 }
 func (b *basicHelloService) Validate(ctx context.Context, date string) (b0 bool, e1 error) {
-	// TODO implement the business logic of Validate
 	_, err := time.Parse("02/01/2006", date)
 	if err != nil {
 		return false, err
