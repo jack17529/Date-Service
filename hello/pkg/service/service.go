@@ -7,8 +7,6 @@ import (
 
 // HelloService describes the service.
 type HelloService interface {
-	// Add your methods here
-	// e.x: Foo(ctx context.Context,s string)(rs string, err error)
 	Status(ctx context.Context) (string, error)
 	Get(ctx context.Context) (string, error)
 	Validate(ctx context.Context, date string) (bool, error)
