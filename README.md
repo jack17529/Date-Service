@@ -9,6 +9,7 @@ Made a basic date service with go-kit-CLI using gorilla mux router to get the cu
 
 ## Architechture
 
+```
 hello/  
 |---cmd/  
 |------service/  
@@ -28,6 +29,7 @@ hello/
 |------service/  
 |----------middleware.go      The service middleware.  
 |----------service.go         Business logic.  
+```
 
 ## Reproducing the service
 
